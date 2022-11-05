@@ -17,9 +17,10 @@ r = rand() % 128;
 if ((c + r) > 2772)
 break;
 c = c + r;
-putchar("%c", r);
+printf("%c", r);
 }
-putchar("%c\n", (2772 - c));
+printf("%c\n", (2772 - c));
 return (0);
 }
+
 
