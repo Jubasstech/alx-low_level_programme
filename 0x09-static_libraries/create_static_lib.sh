@@ -1,4 +1,3 @@
-#!/bin/bashc
-ar -rc liball.a *.oa
-
-
+#!/bin/bash
+gcc -c *.c
+ ar -rc liball.a *.o
