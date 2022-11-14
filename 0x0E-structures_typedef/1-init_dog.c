@@ -10,13 +10,12 @@
   *
   * Return: Nothing
   */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 if (d != NULL)
 {
-d->name = boby;
-d->age = 5;
-d->owner = Jerome;
+d->name = name;
+d->age = age;
+d->owner = owner;
 }
 }
-
