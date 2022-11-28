@@ -22,3 +22,4 @@ new->next = *head;
 *head = new;
 
 return (*head);
+}
