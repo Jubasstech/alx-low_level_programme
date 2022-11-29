@@ -70,3 +70,4 @@ nnodes++;
 free_listp2(&hptr);
 return (nnodes);
 }
+
