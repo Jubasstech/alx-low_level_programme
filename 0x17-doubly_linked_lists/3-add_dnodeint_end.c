@@ -30,3 +30,8 @@ current->next = new_node;
 return (new_node);
 }
 
+new_node->next = *head;
+new_node->prev = NULL;
+*head = new_node;
+return (*head);
+}
